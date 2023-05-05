@@ -14,6 +14,8 @@ WARNING:
 
 -->
 
+**Note:** this is the "per-architecture" repository for the `arm32v7` builds of [the `unit` official image](https://hub.docker.com/_/unit) -- for more information, see ["Architectures other than amd64?" in the official images documentation](https://github.com/docker-library/official-images#architectures-other-than-amd64) and ["An image's source changed in Git, now what?" in the official images FAQ](https://github.com/docker-library/faq#an-images-source-changed-in-git-now-what).
+
 # Quick reference
 
 -	**Maintained by**:  
@@ -24,14 +26,9 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`1.29.1-go1.20`, `go1.20`, `go1`, `go`](https://github.com/nginx/unit/blob/b9bc222021e77bbdfb12576b3e315b962cf6b399/pkg/docker/Dockerfile.go1.20)
--	[`1.29.1-jsc11`, `jsc11`, `jsc`](https://github.com/nginx/unit/blob/b9bc222021e77bbdfb12576b3e315b962cf6b399/pkg/docker/Dockerfile.jsc11)
--	[`1.29.1-node18`, `node18`, `node`](https://github.com/nginx/unit/blob/b9bc222021e77bbdfb12576b3e315b962cf6b399/pkg/docker/Dockerfile.node18)
--	[`1.29.1-perl5.36`, `perl5.36`, `perl5`, `perl`](https://github.com/nginx/unit/blob/b9bc222021e77bbdfb12576b3e315b962cf6b399/pkg/docker/Dockerfile.perl5.36)
--	[`1.29.1-php8.2`, `php8.2`, `php8`, `php`](https://github.com/nginx/unit/blob/b9bc222021e77bbdfb12576b3e315b962cf6b399/pkg/docker/Dockerfile.php8.2)
--	[`1.29.1-python3.11`, `python3.11`, `python3`, `python`](https://github.com/nginx/unit/blob/b9bc222021e77bbdfb12576b3e315b962cf6b399/pkg/docker/Dockerfile.python3.11)
--	[`1.29.1-ruby3.2`, `ruby3.2`, `ruby3`, `ruby`](https://github.com/nginx/unit/blob/b9bc222021e77bbdfb12576b3e315b962cf6b399/pkg/docker/Dockerfile.ruby3.2)
--	[`1.29.1-minimal`, `minimal`](https://github.com/nginx/unit/blob/b9bc222021e77bbdfb12576b3e315b962cf6b399/pkg/docker/Dockerfile.minimal)
+**WARNING:** THIS IMAGE *IS NOT SUPPORTED* ON THE `arm32v7` ARCHITECTURE
+
+[![arm32v7/unit build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/arm32v7/job/unit.svg?label=arm32v7/unit%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/arm32v7/job/unit/)
 
 # Quick reference (cont.)
 
