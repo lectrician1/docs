@@ -14,6 +14,8 @@ WARNING:
 
 -->
 
+**Note:** this is the "per-architecture" repository for the `arm64v8` builds of [the `unit` official image](https://hub.docker.com/_/unit) -- for more information, see ["Architectures other than amd64?" in the official images documentation](https://github.com/docker-library/official-images#architectures-other-than-amd64) and ["An image's source changed in Git, now what?" in the official images FAQ](https://github.com/docker-library/faq#an-images-source-changed-in-git-now-what).
+
 # Quick reference
 
 -	**Maintained by**:  
@@ -32,6 +34,8 @@ WARNING:
 -	[`1.29.1-python3.11`, `python3.11`, `python3`, `python`](https://github.com/nginx/unit/blob/b9bc222021e77bbdfb12576b3e315b962cf6b399/pkg/docker/Dockerfile.python3.11)
 -	[`1.29.1-ruby3.2`, `ruby3.2`, `ruby3`, `ruby`](https://github.com/nginx/unit/blob/b9bc222021e77bbdfb12576b3e315b962cf6b399/pkg/docker/Dockerfile.ruby3.2)
 -	[`1.29.1-minimal`, `minimal`](https://github.com/nginx/unit/blob/b9bc222021e77bbdfb12576b3e315b962cf6b399/pkg/docker/Dockerfile.minimal)
+
+[![arm64v8/unit build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/unit.svg?label=arm64v8/unit%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/unit/)
 
 # Quick reference (cont.)
 
